@@ -10,7 +10,7 @@ class Animal{
 } 
 
 const lion = new Animal("Lion","Meat","Hunting");
-console.log(lion);
+console.log(lion.work);
 
 const tiger = new Animal("Tiger","Meat","Hunting")
 console.log(tiger)
