@@ -7,7 +7,7 @@ const map = function(parking,flor,furniture,flat){
 	this.flor = flor;
 	this.furniture = furniture;
 	this.flat = flat;
-	console.log(this)
+	// console.log(this)
 }
 const house1 = new map("car-bike",2,"Chair-Table","3BHK")
 console.log(house1)
@@ -20,6 +20,7 @@ const person = function(house,school,market,game){
     this.school = school;
     this.market = market;
     this.game = game;
+    // console.log(this)
 }
 
 const person1 = new person("Son","Student","Customer","Player");
