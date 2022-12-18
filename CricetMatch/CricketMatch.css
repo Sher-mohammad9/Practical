@@ -1,0 +1,39 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.center{
+	display: flex;
+	justify-content: center;
+}
+
+.centerbutton{
+	display: flex;
+	justify-content: center;	
+}
+#play{
+  padding: 5px 25px 5px 25px;
+  margin: 10px;
+  font-size: 17px;
+  font-family: Georgia, serif;
+  background: white;
+  color: #1C2833;
+  outline: none;
+  border: 1px solid #1C2833;
+  border-radius: 25px;	
+  cursor: pointer;
+}
+#play:hover{
+	background-color: #1C2833;
+	color: #FBFCFC;
+}
+#betsRun1{
+	text-align: center;
+}
+#wikits{
+	text-align: center;
+}
+#teamScore{
+	text-align: center;
+}
