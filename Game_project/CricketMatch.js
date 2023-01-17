@@ -16,8 +16,9 @@ let tr = document.createElement("tr");
 	teamScore.innerHTML = Score;
 	wikits.textContent = wikis;
 
-function cricetMatch(){
-let random = Math.trunc(Math.random()*7);
+function cricketMatch(){
+
+let random = Math.trunc(Math.random()*7);	
 
 if((random === 4 || random === 6 || random === 1 || random === 2 || random === 3) && disiGain){
 	betsman1 += random;
@@ -51,4 +52,27 @@ if(wikis === 10){
 	localStorage.setItem('teamScore', Score);
 	localStorage.setItem('teamwikits', wikis)
 }
+
+let gap = 2
+let gap1 = 1;
+let i=0; 
+let val = 0;
+while(i<10){
+   console.log(val)
+  if(i < 3){
+     val++
+  }else{
+  	val += gap;
+    gap++;
+  	gap += gap1;   
+ }
+
+
+
+
+   i += 1;
+}
+
+
+
 
