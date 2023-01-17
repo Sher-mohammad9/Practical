@@ -44,7 +44,7 @@ const Cow = function(name1,color1,legs){
 	Animal2.call(this,name1,color1)
 }
 
-Cow.prototype = Animal2.prototype;
+Cow.prototype = Object.create(Animal2.prototype);
 
 const ania = new Animal2("cow","white")	
 console.log(ania)
