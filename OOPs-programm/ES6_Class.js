@@ -32,14 +32,14 @@ class Lion extends Animal{
 
 	}
 
-	display(){
+	_display(){
 		console.log(`${this.name} is king of Forest and eating ${this.eating} work ${this.work} and lion are ${this.legs} legs`)
 	}
 }
 
 // const Ani = new Animal("Lion","Meat","Hunting,");
 const anim = new  Lion("Lion","Meat","Hunting,",4)
-anim.display();
+anim._display();
 
 
 
